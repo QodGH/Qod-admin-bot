@@ -1,139 +1,49 @@
+![](https://images-ext-2.discordapp.net/external/bcNqMV_bCxmLFYQKjNteK_dGO_Zvd37b29bdoVmIPiI/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/969221600652165150/d1103fc841f6cfbd3c4c48f01ebad1e1.png)
 
-
-**<p align="center"> <img src="https://media.discordapp.net/attachments/853118185330049054/885199802369974292/images_1.jpeg" /> </p>**
-
-
-<h1 align="center"> REAPER-2.0  </h1>
+# Qod-Bot
+Qod is the only bot that you need in your discord server, it comes with many features such as a Giveaway System, Music System and much more
+- Released: 30.09.2022
+- [💌 Invite the bot](https://discord.com/api/oauth2/authorize?client_id=969221600652165150&permissions=8&scope=bot%20applications.commands)
 <p align="center">
-<a href="https://github.com/Simpleboy353/REAPER-2.0/blob/main/LICENSE.md"><img alt="GitHub License" src="https://img.shields.io/github/license/Simpleboy353/REAPER-2.0?style=for-the-badge"></a>
-<a href="https://github.com/Simpleboy353/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/Simpleboy353/REAPER-2.0?style=for-the-badge"></a> 
-<a href="https://github.com/Simpleboy353/REAPER-2.0/network"><img alt="GitHub Forks" src="https://img.shields.io/github/forks/Simpleboy353/REAPER-2.0?style=for-the-badge"></a>
-<a href="https://discord.gg/PCFedSNnqp"><img alt="Support Server" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
+	<a href="https://discord.gg/MSQeXpvJSV">
+		<img src="https://canary.discordapp.com/api/guilds/1011675718092075068/embed.png" alt="Discord server">
+	</a>
 </p>
-<h3 align="center">A Multi-purpose Discord bot with many features!</h3>
 
+## Installation
 
-
-## Requirements
-- Discord.js v14 (`npm install discord.js@latest`)
-- `applications.commands` scope enabled for your bot in Developer Portal (For Slash Cmds).
-- `MESSAGE_CONTENT`, `GUILD_MEMBERS` intents enabled in Developer Portal (`GUILD_PRESENCES` is optional)
-- NodeJS v16.9.0 or higher
-- Basic knowledge of JS or Discord.JS
-
-## Have suggestions on what could be added?
-- **Leave your suggestions right [here](https://github.com/Simpleboy353/REAPER-2.0/discussions/138) then!**
-
-## What features does Reaper Include?
-
-<details><summary>Available Features</summary>
-
-| Features             | Availability |
-| -------------------- | ------------ |
-| Anti-Link            |     ✅       |
-| Autorole             |     ✅       |
-| Auto-Mod             |     ✅       |
-| Custom Prefix        |     ✅       |
-| Permanent Database   |     ✅       |
-| Welcomer             |     ✅       |
-| Logging              |     ✅       |
-| Menu(s)              |     ✅       |
-| Suggestion System    |     ✅       |
-| Slash Commands       |     ✅       |
-| Rep System           |     ✅       |
-
-</details>
-
-<details><summary>Command Categories</summary>
-
-| Commands Category      | Availability |
-| ---------------------- | ------------ |
-| Configuration          |     ✅       |
-| Fun                    |     ✅       |
-| Image                  |     ✅       |
-| Info                   |     ✅       |
-| Moderation             |     ✅       |
-| Music                  |     ✅       |
-| NSFW                   |     ✅       |
-| Utilities              |     ✅       |
-
-</details>
-
-## Versions and Support Info
-
-<details><summary>Detailed Versions Info</summary>
-
-|              REAPER Versions                           | Support Status |
-| ------------------------------------------------------ | -------------- |
-| v8.1.0-beta (Suggestion System) (Current)              |         Available        |
-| v8.0.0 (V14 Support Added)                             |         Available        |
-| v7.3.0-stable (Updated Rep System)                     |       Discontinued       |
-| v7.2.0-stable (Rep System)                             |       Discontinued       |
-| v7.1.5-stable (Button controls for music)              |       Discontinued       |
-| v7.1.0-stable (Support for Activities)                 |       Discontinued       |
-| v7.0.0-stable (Music System)                           |       Discontinued       |
-| v6.7.5-alpha (Better Error Logging)                    |       Discontinued       |
-| v6.7.0-beta (Slash Cmds, Thread Events)                |       Discontinued       |
-| v6.6.0-beta (Logging, New UI for settings)             |       Discontinued       |
-| v6.5.0-stable (V13 Support Added)                      |       Discontinued       |
-| v6.3.0-stable (Anti-Link Support)                      |       Discontinued       |       
-| v6.1.0-stable (Error Free Version)                     |       Discontinued       |
-| v5.5.0-stable (Welcomer Added)                         |       Discontinued       |
-| v5.0.0-beta (Autorole Added)                           |       Discontinued       |
-| v4.9.0-alpha (Custom Prefix Added)                     |       Discontinued       |
-| v4.4.0-alpha (Database Support Added)                  |       Discontinued       |
-
-</details>
-
-- **Keep checking the [Releases Section](https://github.com/Simpleboy353/REAPER-2.0/releases) to get the latest info relating new updates, bug fixes etc about the repository.**
-- **The Information above includes Versions with only `Major Updates` and not Versions with `Bug fixes`**
-- **`v6.1.0-stable` is included in the List because this version includes the fixing of every error in the repository.**
-- **Support is provided only for `Stable` and `Beta` Versions and not for `Alpha` Versions.**
-
----
-
-## Getting started
-#### Creating a fork:
-- 1). [Click here to fork the repository](https://github.com/Simpleboy353/REAPER-2.0)
-- 2). Open your terminal and type `git clone https://github.com/Simpleboy353/REAPER-2.0.git`
-#### Installing all necessary packages
-- `npm install`
-#### Starting the bot
-- `node .` or `node index` 
-
----
-
-## Configuration
-- **Edit the `config.json` file and enter the  required values**
+1. Start cloning the repository and installing the dependencies.
+```bash
+git clone https://github.com/QodGH/Qod-Bot.git
+cd Qod-Bot
+npm install
+```
+2. Make sure you installed [ffmpeg](https://ffmpeg.org/) (for the music system)
+3. Create a free [MongoDB Database](https://www.mongodb.com/)
+4. Edit your config.json file to your preferences, Create a token on the [Discord Developer Portal](https://discord.com/developers/applications)
+### Config:
 ```json
 {
-  "OWNER_ID": "YOUR_ID_HERE",
-  "BOT_TOKEN": "YOUR_BOT_TOKEN",
-  "tenorAPI":"ZEEELJXAFQBN",
-  "DEFAULT_PREFIX":"ENTER_YOUR_PREFIX_HERE",
-  "mongoPass": "ENTER_YOUR_MONGODB_URL_HERE",
-  "ERROR_LOGS_CHANNEL": "ADD_ERRORLOGS_CHANNEL_ID",
-  "YT_COOKIE": "ADD_YOUR_COOKIE_HERE",
+    "token": "DISCORD BOT TOKEN",
+    "color": "#34a6ef",
+    "developerGuild": "GUILD ID",
+    "database": "MONGO-DB LINK",
+    "supportServer": "DISCORD INVITE LINK"
 }
 ```
-- **Watch [this video](https://youtu.be/BPqJIl34gm8) to know, how to get the `YT_COOKIE`**
-- **You may use any channel id for `ERROR_LOGS_CHANNEL`, but the bot must be present in the server you are choosing the ID from.**
-- **All the errors your bot faces, will be logged in the `ERROR_LOGS_CHANNEL`**
-- **The `mongoPass` must be a `url`**
-- **Visit Official [MongoDB Website](https://mongodb.com) to get your `mongoPass`**
-- **Watch this video to know how to get your `mongoPass`:**
-[![MongoDb Tutorial](http://img.youtube.com/vi/pf-8KA8td88/0.jpg)](http://www.youtube.com/watch?v=pf-8KA8td88 "MongoDB Tutorial")
-- **Don't change the `tenorAPI` else the `gif` command won't work!**
+5. If you finished to configurate, you can start the bot
+```bash
+npm run start
+```
 
+## Author
+[Qod](https://github.com/QodGH)
 
----
+## ☕️ Support & Socials
+My Bot is open source and free to use. If you found any of my repos useful and would like to support my projects, feel free to join my Server.
 
-## Contributing
-- **Before contributing to this repo, make sure to read [CONTRIBUTIONS.md](https://github.com/Simpleboy353/REAPER-2.0/blob/master/CONTRIBUTIONS.md)**
-- **Join our [Support & Development Server](https://discord.gg/PCFedSNnqp)**
-- **Join our [Community server](https://discord.gg/yMfyeNR2DT)**
-- **Invite my bot to your Server, [Here](https://infinitybot.tk/invite)**
+### 🔗 https://discord.gg/MSQeXpvJSV
 
----
-
-## Star the Repo if you liked it!
+[![YouTube Link](https://img.shields.io/badge/Youtube-000000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/channel/UCWO8iq7u0aCaakA80I46MNg)
+[![Twitter Link](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Qod_yt)
+[![Insta Link](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sad_vibe_z)
